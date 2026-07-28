@@ -29,4 +29,4 @@ jobs:
           TENANT_ID: ${{ secrets.TENANT_ID }}
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
         run: |
-          python main.py
+          python auth.py
